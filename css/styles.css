@@ -1,0 +1,35 @@
+/*Nina Kong*/
+body {
+    font-family: Dosis, arial, sans-serif;
+    font-size: 20px;
+}
+h1 {
+	padding: 2em;
+	color: #f2849e;
+}
+.slideshow div {
+    z-index: 0;
+    position: absolute;
+}
+.slideshow .previous {
+    z-index: 1;
+}
+.slideshow .current {
+    z-index: 2;
+}
+/*Ultility*/
+.align-center {
+	text-align: center;
+}
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
+}
+.float-right {
+	float: right;
+}
+.padding-0 {
+	padding: 0;
+}
